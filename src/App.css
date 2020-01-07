@@ -1,0 +1,33 @@
+.header{
+  width: 50%;
+  margin: 10px auto;
+  padding: 1em;  
+  text-align: center;
+  background: url("https://bit.ly/2Quh4Q8");
+}
+.heading {
+    color: black;
+    font-size: 2em;
+    font-weight: bold;
+    font-style: italic;
+    animation: blinker 1s linear infinite;
+}
+.addName, .updateName{
+    color: black;
+    font-weight: bold;
+    font-style: italic;     
+}
+.addingDetails, .editName{
+  text-align: center;
+  padding: 1em;  
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+}
+.tableHead{
+    font-weight: bold;
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
